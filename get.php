@@ -6,3 +6,4 @@ $txt = "Minnie Mouse\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
+hello
