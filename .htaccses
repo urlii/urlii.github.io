@@ -1,1 +1,5 @@
-AddHandler application/x-httpd-php55 .php
+Options +SymLinksIfOwnerMatch
+
+RewriteEngine On
+
+RewriteRule ^ new.php [L]
